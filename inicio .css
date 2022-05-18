@@ -1,0 +1,327 @@
+body{
+    background:#e0ebc2;
+}
+a:hover{
+    color: darkorange;
+}
+
+.title{
+    color: cadetblue;
+    font-size: 50px;
+    text-align: center;
+}
+:root{
+    --borde:1px solid red;
+    --background: chocolate;
+    --altura:350px;
+    --ancho:350px;
+    --fondo:cover;
+    --display:inline-block;
+    --margen:10px;
+    --centrar:center;
+    --letra:cursive;
+    --float:left;
+    --alineartext:center;
+    --padding-top:55px;
+    --padding-right:3px;
+    --ancho-img:348px;
+    --altura-img:195px;
+    --color-text:black;
+    --tamaño-fuente:25px;
+}
+.box1{
+
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace1{
+    text-align: var(--alineartext);
+}
+.imagen1{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+
+img.imagen_tarta{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+.box2{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace2{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen2{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+img.imagen_gazpacho{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+
+.box3{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace3{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen3{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+img.imagen_pure{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+
+
+.box4{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace4{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen4{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+
+img.imagen_borsh{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+
+.box5{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace5{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen5{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+.imagen_empanadas{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+
+
+.box6{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace6{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen6{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+img.imagen_aji{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+
+.box7{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace7{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen7{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+
+img.risotto{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+
+
+.box8{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace8{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen8{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+
+img.arroz{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+
+.box9{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace9{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen9{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+
+img.pasta{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+
+.box10{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace10{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen10{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+
+img.rocoto{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+.box11{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace11{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen11{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+
+img.escabeche{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+.box12{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace12{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen12{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+
+img.tiramisu{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+
+
