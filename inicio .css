@@ -7,12 +7,16 @@ a:hover{
 
 .title{
     color: cadetblue;
-    font-size: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    font-size: 3cm;
     text-align: center;
 }
 :root{
-    --borde:1px solid red;
-    --background: chocolate;
+    --borde:1px solid black;
+    --background:black;
     --altura:350px;
     --ancho:350px;
     --fondo:cover;
@@ -30,7 +34,7 @@ a:hover{
     --tamaño-fuente:25px;
 }
 .box1{
-
+    border:var(--borde);
     background: var(--background);
     height:var(--altura);
     width:var(--ancho);
@@ -320,6 +324,82 @@ img.escabeche{
 }
 
 img.tiramisu{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+
+
+.box13{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace13{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen13{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+
+img.limonada{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+
+.box14{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace14{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen14{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+
+img.panqueques{
+    width: var(--ancho-img);
+    height: var(--altura-img);
+}
+
+.box15{
+    border:var(--borde);
+    background: var(--background);
+    height:var(--altura);
+    width:var(--ancho);
+    margin:var(--margen) ;
+    font-size:var(--tamaño-fuente);
+    font-family:var(--letra);
+    float:var(--float);
+    
+}
+.enlace15{
+    text-align: var(--alineartext);
+    border:var(--border);
+}
+.imagen15{
+    padding-top: var(--padding-top);
+    padding-right: var(--padding-right);
+}
+
+img.vareniki{
     width: var(--ancho-img);
     height: var(--altura-img);
 }
