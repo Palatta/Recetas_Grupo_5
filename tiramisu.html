@@ -1,50 +1,72 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>
-      Tiramisu
-    </title>
-    <link rel="stylesheet"href="Inicio.css">
+    <meta charset="UTF-8">
+    <title>tiramisu</title>
+    <link rel="stylesheet" href="receta.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-
-    <h1>Tiramisu</h1>
-    <img src="data:image/jpeg;base64,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"
-    <br>
-    <h2>Ingredientes</h2>
-    <ul>
-      <li>Mascarpone 750 g</li>
-      <li>Galletas savoiardi 250 g</li>
-      <li>Cafe (de moka) 300 g</li>
-      <li>Huevos frescos 260 g</li>
-      <li>Azucar 120 g</li>
-      <li>Cacao amargo en polvo</li>
-      </ul>
-
-    <h2>Preparación</h2>
-    <ol>
-      <li>Preparar cafe con la moka y dejarlo enfriar</li>
-      <li>Separar las yemas de las claras</li>
-      <li>Bater las yamas con midad del azucar</li>
-      <li>Cuando el mix es claro y espumoso, anadir el mascarpone poco a poco</li>
-      <li>Mezclar el composto final con una espatula</li>
-      <li>Limpiar bien el batidor</li>
-      <li>Bater las claras anadiendo el azucar poco a poco hasta el obtenimiento de una crema densa</li>
-      <li>Tomar una parte de yama y ponerla en el cuenco donde esta la crema de mascarpone</li>
-      <li>Mezclar bien con una espatula</li>
-      <li>Una vez mezclado bien, anadir las yamas que faltan y mezclar suavemente</li>
-      <li>Poner una cucharrata de crema en el fundo de un plato de hornear (o otro contenidor)</li>
-      <li>Sumergir rapidamente los savoiardos en el cafe de los dos lados</li>
-      <li>Poner los savoiardos en cima de la crema para crear una capa</li>
-      <li>Anadir en cima la crema</li>
-      <li>Repetir las ultimas 2 etapas hasta llegar al final</li>
-      <li>Pulverizar el cacao amargo en cima de la ultima capa de crema</li>
-      <li>Poner el tiramisu en el refrigerador</li>
-    </ol>
-
-      <h2>Autor: Paolo</h2>
-      <a href="index.html">Volver al index</a>
-
+    <div class="transp-box">
+      <h1>Tiramisu</h1>
+      <div class="receta-img">
+          <img src="https://vinomanos.com/wp-content/uploads/2021/02/Tiramisu-min.jpg" alt="photo tiramisu"/>
+      </div>
+      <div class="ingredientes">
+        <h2>Ingredientes</h2>
+        <ul>
+          <li>Mascarpone 750 g</li>
+          <li>Galletas savoiardi 250 g</li>
+          <li>Cafe (de moka) 300 g</li>
+          <li>Huevos frescos 260 g</li>
+          <li>Azucar 120 g</li>
+          <li>Cacao amargo en polvo</li>
+        </ul>
+      </div>
+      <div class="preparacion">
+        <h2>Preparación</h2>
+        <ol>
+          <li>Preparar cafe con la moka y dejarlo enfriar</li>
+          <br>
+          <li>Separar las yemas de las claras</li>
+          <br>
+          <li>Bater las yamas con midad del azucar</li>
+          <br>
+          <li>Cuando el mix es claro y espumoso, anadir el mascarpone poco a poco</li>
+          <br>
+          <li>Mezclar el composto final con una espatula</li>
+          <br>
+          <li>Limpiar bien el batidor</li>
+          <br>
+          <li>Bater las claras anadiendo el azucar poco a poco hasta el obtenimiento de una crema densa</li>
+          <br>
+          <li>Tomar una parte de yama y ponerla en el cuenco donde esta la crema de mascarpone</li>
+          <br>
+          <li>Mezclar bien con una espatula</li>
+          <br>
+          <li>Una vez mezclado bien, anadir las yamas que faltan y mezclar suavemente</li>
+          <br>
+          <li>Poner una cucharrata de crema en el fundo de un plato de hornear (o otro contenidor)</li>
+          <br>
+          <li>Sumergir rapidamente los savoiardos en el cafe de los dos lados</li>
+          <br>
+          <li>Poner los savoiardos en cima de la crema para crear una capa</li>
+          <br>
+          <li>Anadir en cima la crema</li>
+          <br>
+          <li>Repetir las ultimas 2 etapas hasta llegar al final</li>
+          <br>
+          <li>Pulverizar el cacao amargo en cima de la ultima capa de crema</li>
+          <br>
+          <li>Poner el tiramisu en el refrigerador</li>
+        </ol>
+      </div>
+      <div class="author">
+        <h3>Autor: Paolo</h3>
+      </div>
+      <div class="home-link">
+        <a href="index.html">Volver al index</a>
+      </div>
+    </div>
   </body>
 </html>
